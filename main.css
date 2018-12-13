@@ -1,0 +1,172 @@
+*{
+	color: red;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+.home{
+
+max-width: 100%;
+height: auto;
+width: auto\9; /* ie8 */
+}
+
+body{
+	background-image: url("images/eggsauce.jpg");
+	line-height: 1.6;
+	background-color:lightblue;
+	width: 70%
+	margin: 0 auto;
+	padding: 2em;
+}
+
+
+.contactform{
+	border: double;
+}
+
+a{
+	color: blue;
+	text-transform: uppercase;
+	display: inline-block;
+	padding: 10px 15px;
+}
+
+
+  /* ---- Layout Containers ---- */
+
+.container{
+	padding-left: 1em;
+	padding-right: 1em;
+
+
+}   
+footer{	
+	background-color: #d9e4ea;
+	text-align: center;
+	margin-top: -1px;
+}
+
+.firstname{
+	margin: 0;
+}
+.paragraph{
+	display: inline-block;
+	width: 50%;
+	margin-right: -4px;
+	background: lightgrey;
+	vertical-align: top;
+	padding-left: 1em;
+	border: ridge;
+}
+.second-paragraph{
+ 	position: relative;
+ 	text-align: left;
+ 	border-style: ridge;
+}
+.first-paragraph{
+	position: relative;
+	text-align: right;
+	border-style: ridge;
+}
+.gallery{
+	margin-top: 20px; 
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: grey;
+	display: block;
+	margin: 0 auto;
+}
+img{
+	float: left;
+	width: 550px;
+	padding: 5px;
+	border: solid 1px #d9e4ea
+	padding-top: 2px;
+
+}
+.gallery-image{
+	display: block;
+	margin-left: 20px
+	margin-right: 20px
+}
+.gallery-image img{
+	display: inline-block;
+	height: 35%
+	width: 35%
+	margin: 0 auto;
+
+}
+.header{
+	text-align: inherit;
+}
+.main-header{
+	background-color: lightgreen;
+	padding-top: .5em;
+	padding-bottom: .5em;
+	padding: 1em 0;
+}
+.main-nav{
+	float: right;
+	vertical-align: baseline;
+	text-transform: uppercase;
+	display:  inline-block;
+	padding: 10px 15px;
+
+}
+.main-nav li{
+	float: left
+	margin-left:6px
+	background: #fff;
+	border: solid 1px #093a58;
+
+}
+.name{
+	float: left;
+	margin: 0;
+}
+h1{
+
+
+}
+li{
+	padding-bottom:30px
+	padding-left: 30px
+}
+
+ul,
+li,
+h1{
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+}
+
+
+
+
+ /* ===================================
+	Media Queries
+ ====================================== */
+
+ @media(min-width: 769px) {
+ .container {
+ 	width: 75%
+ 	max-width: 1000px
+	margin: 0 auto;
+ }	
+ }
+
+ h1,
+ ul,
+ li {
+ 	display: inline-block;
+ }
+ h1.first-head {
+ 	float: left;
+ }
+ li a{
+ 	padding: 15px 30px;
+ }
